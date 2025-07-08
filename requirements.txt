@@ -1,0 +1,8 @@
+numpy
+pandas
+streamlit
+plotly
+css
+pathlib
+pickle
+scikit-learn
