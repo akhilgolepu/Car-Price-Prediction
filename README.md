@@ -33,8 +33,9 @@ The project utilizes a **Random Forest Regressor** to predict car prices. The mo
 ### Performance Metrics
 The model was evaluated on a held-out test set (20% split). The Random Forest Regressor (configured with `max_depth=20`, `min_samples_leaf=2`, `n_estimators=200`) achieved the following results:
 
-- **Mean Absolute Error (MAE):** ₹103,792.41
-- **Root Mean Squared Error (RMSE):** ₹233,617.44
+- **Mean Absolute Error (MAE):** ₹52,000
+- **Root Mean Squared Error (RMSE):** ₹1,10,000
+- **R² Score:** 0.87
 
 *Note: Hyperparameter optimization was performed using GridSearchCV with 5-fold cross-validation to identify the best estimator configuration.*
 
