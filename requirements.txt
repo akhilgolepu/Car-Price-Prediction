@@ -1,5 +1,7 @@
-numpy
-pandas
-streamlit
-plotly
-scikit-learn
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+streamlit>=1.30
+plotly>=5.0
+category-encoders>=2.6
+joblib>=1.3
